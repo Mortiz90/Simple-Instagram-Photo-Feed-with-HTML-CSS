@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    background-color:hsl(0deg 0% 91.76%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+header h1 {
+    width:600px;
+    margin:0px;
+    margin:auto;
+}
+main {
+    padding:20px;
+}
+header {
+    padding:5px;
+    background-color: white;
+    margin:0px;
+    margin:auto;
+}
+article {
+    margin:auto;
+    background-color: white;
+    width:600px;
+    border: 10px;
+    margin-top: 50px;
+}
+.arcticle_header {
+    display:flex;
+    align-items: center;
+    padding:6px;
+    justify-content: space-between;
+}
+.arcticle_header-title {
+    font-size:16px;
+    font-weight: bold;
+}
+.arcticle_header-date {
+    font-size: 13px;
+    color:grey;
+}
+.arcticle_footer {
+    margin:0px;
+    padding:0px;
+}
+.arcticle_footer p {
+    margin:0px;
+    padding:20px;
+}
+.arcticle_footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
